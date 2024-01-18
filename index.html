@@ -12,6 +12,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!-- Tailwind Custom color -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                "primary-btn": '#E76F51',
+              }
+            }
+          }
+        }
+      </script>
     <!-- Css internal CSS -->
     <style>
         .font-popins{
@@ -51,11 +64,11 @@
                 </ul>
             </div>
             <div class="">
-                <a class="btn btn-error bg-[#E76F51] px-8 py-3 lg:py-4 lg:px-14 text-[#fff]">Login</a>
+                <a class="btn bg-primary-btn px-8 py-3 lg:py-4 lg:px-14 text-[#fff]">Login</a>
             </div>
         </div>
     </header>
-    <main>
+    <main class="md:container md:mx-auto">
 
     </main>
     <footer>
